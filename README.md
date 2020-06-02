@@ -1,15 +1,14 @@
-### Date created
+### 2 June 2020
 Include the date you created this project and README file.
 
-### Project Title
+### US Bikesharing
 Replace the Project Title
 
-### Description
+### This program interacts with a user to ask them what US bikeshare data they want to look and retrieving key statistics for the user.
 Describe what your project is about and what it does
 
-### Files used
+### bikeshare_final.py
 Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
