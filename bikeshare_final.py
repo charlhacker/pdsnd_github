@@ -43,7 +43,7 @@ def get_filters():
             print('Oops, invalid input. We only have data for the months January through to June. Please enter one of these or enter "all" to see data for all months.')
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    print('OK. Enter the day you would like to see data for, or enter "all" if you don\'t want to filter by day.'.format(month,city))
+    print('OK. Enter the day (Mon-Sun) you would like to see data for, or enter "all" if you don\'t want to filter by day.'.format(month,city))
 
     while True:
         day = input('Enter day of week: ').lower()
