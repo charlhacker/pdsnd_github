@@ -1,4 +1,4 @@
-# FINAL CODE FOR UDACITY PYTHON ASSIGNMENT 
+# FINAL CODE FOR UDACITY PYTHON ASSIGNMENT
 
 import time
 import pandas as pd
@@ -149,6 +149,8 @@ def trip_duration_stats(df):
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
+
+    # NB. Trip durations coverted from seconds to minutes. 
 
     # TO DO: display total travel time
     total_duration = (int(df['Trip Duration'].sum())) // 60
