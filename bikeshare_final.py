@@ -150,7 +150,7 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # NB. Trip durations coverted from seconds to minutes. 
+    # NB. Trip durations coverted from seconds to minutes.
 
     # TO DO: display total travel time
     total_duration = (int(df['Trip Duration'].sum())) // 60
@@ -220,7 +220,7 @@ def main():
                     restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
                     if restart == 'no':
                         exit()
-                    elif restart == 'yes':
+                    elif restart == 'yes': #NB needs a fix - loops back to preview rather than program restart
                         break
                     else:
                         print('Invalid input - please enter yes or no.')
