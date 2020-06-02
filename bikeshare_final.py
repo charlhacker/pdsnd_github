@@ -33,7 +33,7 @@ def get_filters():
 
         # TO DO: get user input for month (all, january, february, ... , june)
 
-    print('OK. We\'ll look at {}. Enter the month you would like to see data for, or enter "all" if you don\'t want to filter by month'.format(city))
+    print('OK. We\'ll look at {}. Enter the month (January - June) you would like to see data for, or enter "all" if you don\'t want to filter by month'.format(city))
 
     while True:
         month = input('Enter month: ').lower()
