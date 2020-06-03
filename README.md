@@ -1,8 +1,8 @@
 ### Date created
-Include the date you created this project and README file.
+2 June
 
 ### Project Title
-Replace the Project Title
+US Bikesharing Data
 
 ### Description
 This program interacts with a user to ask them what US bikeshare data they want to look and retrieving key statistics for the user.
